@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deklaracja członkowska</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <!-- member  -->
+        <div class="mb-3">
+          <label for="name" class="form-label">
+            Imię
+          </label>
+          <input type="text" class="form-control" id="name" />
+        </div>
+
+        <div class="mb-3">
+          <label for="surname" class="form-label">Nazwisko</label>
+          <input type="text" class="form-control" id="surname" />
+        </div>
+
+        <div class="mb-3">
+          <label for="phone" class="form-label">Nr telefonu</label>
+          <input type="number" class="form-control" id="phone" />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+
+        <!-- emplpyer -->
+
+        <h5>Pracodawca</h5>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="amazon"
+            id="amazon"
+            name="employer"
+          />
+          <label class="form-check-label" for="amazon">
+            Amazon
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="Adecco"
+            id="Adecco"
+            name="employer"
+          />
+          <label class="form-check-label" for="Adecco">
+            Adecco
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="randstad"
+            id="randstad "
+            name="employer"
+          />
+          <label class="form-check-label" for="randstad ">
+            Randstad
+          </label>
+        </div>
+
+        <div class="mb-3">
+          <label for="employerOther" class="form-label">Pracodawca inny</label>
+          <input type="text" class="form-control" id="employerOther" />
+        </div>
+
+        <!-- Workplace -->
+
+        <h5>Miejsce pracy</h5>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="poz1"
+            id="poz1 "
+            name="workplace"
+          />
+          <label class="form-check-label" for="poz1 ">
+            Poz1
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="wro1"
+            id="wro1"
+            name="workplace"
+          />
+          <label class="form-check-label" for="wro1">
+            Wro1
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="wro2"
+            id="wro2"
+            name="workplace"
+          />
+          <label class="form-check-label" for="wro2">
+            Wro2
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="wro5"
+            id="wro5"
+            name="workplace"
+          />
+          <label class="form-check-label" for="wro5">
+            Wro5
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="lcj"
+            id="lcj"
+            name="workplace"
+          />
+          <label class="form-check-label" for="lcj">
+            Lcj
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="ktw1"
+            id="ktw1"
+            name="workplace"
+          />
+          <label class="form-check-label" for="ktw1">
+            Ktw1
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="ktw3"
+            id="ktw3"
+            name="workplace"
+          />
+          <label class="form-check-label" for="ktw3">
+            Ktw3
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="szzl"
+            id="szzl"
+            name="workplace"
+          />
+          <label class="form-check-label" for="szzl">
+            Szzl
+          </label>
+        </div>
+
+        <div class="mb-3">
+          <label for="employerOther" class="form-label">
+            Miejsce pracy inne
+          </label>
+          <input type="text" class="form-control" id="employerOther" />
+        </div>
+
+        <!-- contract -->
+        <h5>Umowa</h5>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="constract"
+            id="unlimited"
+            value="unlimited"
+          />
+          <label class="form-check-label" for="unlimited">
+            Umowa na czas nieokreślony
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="constract"
+            id="limited"
+            value="limited"
+          />
+          <label class="form-check-label" for="limited">
+            Umowa na czas określony
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="constract"
+            id="probation"
+            value="probation"
+          />
+          <label class="form-check-label" for="probation">
+            Okres próbny
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="constract"
+            id="selfEmploy"
+            value="selfEmploy"
+          />
+          <label class="form-check-label" for="selfEmploy">
+            Umowa zlecenie
+          </label>
+        </div>
+
+        <h5>Wymiar czasu pracy</h5>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="workTime"
+            id="fullTime"
+            value="fullTime"
+          />
+          <label class="form-check-label" for="fullTime">
+            Pełen etat
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="workTime"
+            id="halfTime"
+            value="halfTime"
+          />
+          <label class="form-check-label" for="halfTime">
+            Umowa zlecenie
+          </label>
+        </div>
+
+        <!-- Department -->
+
+        <h5>Dział, login</h5>
+
+        <div class="mb-3">
+          <label for="department" class="form-label">
+            Dział
+          </label>
+          <input type="text" class="form-control" id="department" />
+        </div>
+
+        <div class="mb-3">
+          <label for="login" class="form-label">
+            Login
+          </label>
+          <input type="text" class="form-control" id="login" />
+        </div>
+
+        <!-- Membership -->
+
+        <h5>Przynależność do związku</h5>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="membership"
+            id="notBelong"
+            value="notBelong"
+          />
+          <label class="form-check-label" for="notBelong">
+            Nie należę
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="membership"
+            id="belong"
+            value="belong"
+          />
+          <label class="form-check-label" for="belong">
+            Należę
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="membership"
+            id="dontWant"
+            value="dontWant"
+          />
+          <label class="form-check-label" for="dontWant">
+            Należę nie chcę
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Wyślij</button>
+      </form>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
